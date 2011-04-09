@@ -1,0 +1,3 @@
+Just run "make" to compile the entire project.
+To compile for AVR, run "make -f Makefile.avr" instead.
+

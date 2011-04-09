@@ -1,0 +1,17 @@
+/* Enables support for FAT32 */
+#define FAT_ENABLE_FAT32
+
+/* Enables support for FAT16 */
+#define FAT_ENABLE_FAT16
+
+/* Enables write support */
+#define FAT_ENABLE_WRITE
+
+/* Enables debug printouts. */
+#define FAT_DEBUG
+
+/* Set this if you have a single "source code file" project and
+ * include "fat.c" in a .c-file. Recommended for embedded
+ * systems since it will decrease the code size. */
+/* #define FAT_SINGLE_FILE */
+
